@@ -23,5 +23,8 @@
     "@vercel/ncc": "^0.38.4",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
+  },
+  "scripts": {
+  "build": "ncc build src/main.js -o dist"
   }
 }
